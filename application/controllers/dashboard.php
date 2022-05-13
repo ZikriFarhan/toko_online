@@ -48,6 +48,10 @@ class Dashboard extends CI_Controller{
         redirect('welcome');
     }
 
+    public function lanjutkan_belanja(){
+        redirect('welcome');
+    }
+
     public function pembayaran(){
         $this->load->view('templates/header');
         $this->load->view('templates/sidebar');
